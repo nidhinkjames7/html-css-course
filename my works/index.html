@@ -7,10 +7,10 @@
   </head>
 
   <body>
-    <header>
+    <header class="main-header">
       <h1>📘 The Code Magazine</h1>
 
-      <nav>
+      <nav class="navbar">
         <a href="#">Blog</a>
         <a href="#">Challenges</a>
         <a href="#">Flexbox</a>
@@ -66,7 +66,7 @@
       <p>In HTML, each element is made up of 3 parts:</p>
 
       <ol>
-        <li>The opening tag</li>
+        <li class="first-li">The opening tag</li>
         <li>The closing tag</li>
         <li>The actual element</li>
       </ol>
@@ -88,7 +88,9 @@
       </p>
 
       <ul>
-        <li>To be able to use the fundamental web dev language</li>
+        <li class="first-li">
+          To be able to use the fundamental web dev language
+        </li>
         <li>
           To hand-craft beautiful websites instead of relying on tools like
           Worpress or Wix
@@ -102,9 +104,9 @@
     </article>
 
     <aside>
-      <h4>Related posts</h4>
+      <h4>Related Posts</h4>
 
-      <ul>
+      <ul class="related">
         <li>
           <img
             src="img/related-1.jpg"
@@ -113,12 +115,12 @@
             width="75"
           />
           <a href="#">How to Learn Web Development</a>
-          <p>By Jonas Schmedtmann</p>
+          <p class="related-authors">By Jonas Schmedtmann</p>
         </li>
         <li>
           <img src="img/related-2.jpg" alt="Lightning" width="75" heigth="75" />
           <a href="#">The Unknown Powers of CSS</a>
-          <p>By Jim Dillon</p>
+          <p class="related-authors">By Jim Dillon</p>
         </li>
         <li>
           <img
@@ -128,11 +130,13 @@
             height="75"
           />
           <a href="#">Why JavaScript is Awesome</a>
-          <p>By Matilda</p>
+          <p class="related-authors">By Matilda</p>
         </li>
       </ul>
     </aside>
 
-    <footer>Copyright &copy; 2027 by The Code Magazine.</footer>
+    <footer>
+      <p id="copyright">Copyright &copy; 2027 by The Code Magazine.</p>
+    </footer>
   </body>
 </html>

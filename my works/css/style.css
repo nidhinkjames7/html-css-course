@@ -1,5 +1,5 @@
 h1 {
-  color: blue;
+  color: rgb(55, 0, 255);
   font-size: 36px;
 }
 
@@ -15,7 +15,8 @@ li {
 h2,
 h3,
 h4 {
-  color: tomato;
+  color: rgb(236, 49, 49);
+  text-decoration: underline;
 }
 
 h2 {
@@ -40,6 +41,35 @@ li {
   line-height: 1;
 }
 
-footer {
+/* footer {
   font-size: 12px;
+} */
+
+.navbar {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#copyright {
+  font-size: 12px;
+}
+
+.related-authors {
+  font-weight: bold;
+}
+
+.related {
+  list-style: none;
+}
+
+.main-header {
+  background-color: #e5e5e5;
+  border-top: 3px solid #07f007;
+  border-bottom: 3px solid #07f007;
+}
+
+aside {
+  background-color: #e5e5e5;
+  border-top: 3px solid #07f007;
+  border-bottom: 3px solid #07f007;
 }
