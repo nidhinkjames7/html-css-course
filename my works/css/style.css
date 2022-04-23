@@ -15,8 +15,7 @@ li {
 h2,
 h3,
 h4 {
-  color: rgb(236, 49, 49);
-  text-decoration: underline;
+  color: rgb(5, 128, 243);
 }
 
 h2 {
@@ -32,13 +31,13 @@ h4 {
 }
 
 p {
-  font-size: 16px;
-  line-height: 1.25;
+  font-size: 18px;
+  line-height: 1.15;
 }
 
 li {
-  font-size: 16px;
-  line-height: 1;
+  font-size: 18px;
+  line-height: 1.15;
 }
 
 /* footer {
@@ -51,7 +50,7 @@ li {
 }
 
 #copyright {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .related-authors {
@@ -72,4 +71,32 @@ aside {
   background-color: #e5e5e5;
   border-top: 3px solid #07f007;
   border-bottom: 3px solid #07f007;
+}
+
+/* pseudo classes */
+
+/* article li:first-child {
+  font-style: italic;
+} */
+
+/* styling hyperlinks */
+
+a:link {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+a:visited {
+  color: blueviolet;
+}
+
+a:hover {
+  color: rgb(255, 0, 0);
+  text-decoration: underline dotted;
+}
+
+a:active {
+  color: black;
+  font-style: italic;
+  font-weight: bold;
 }
